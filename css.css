@@ -130,3 +130,48 @@ nav .menu .menu-button:hover{
  }
  
 /* gövde kısmında yapmış olduğumuz düzenlemelerin bitiş kısmı */
+
+/* responsive alanı düzenlemeleri */
+
+@media(max-width:576px){
+    .container{
+        width:100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        
+    }
+.menu ul{
+    column-gap: 20px;
+
+}
+.menu .menu-button{
+    display: none;
+}
+
+.content{
+    padding-top: 50px;
+}
+
+.content h1{
+    font-size: 36px;
+}
+
+.content p{
+    font-size: 16px;
+}
+
+.content .links{
+   flex-direction: column;
+   align-items: center;
+    row-gap: 1rem;
+}
+
+
+.content .links a{
+    padding: 14px;
+    width: 90%;
+}
+
+}
+
+/* responsive bitiş */
